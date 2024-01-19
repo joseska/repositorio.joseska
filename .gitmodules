@@ -1,3 +1,33 @@
 [submodule "repo/plugin.video.themoviedb.helper"]
 	path = repo/plugin.video.themoviedb.helper
 	url = https://github.com/jurialmunkey/plugin.video.themoviedb.helper
+[submodule "repo/script.skinvariables"]
+	path = repo/script.skinvariables
+	url = https://github.com/jurialmunkey/script.skinvariables
+[submodule "repo/resource.images.arctic.waves"]
+	path = repo/resource.images.arctic.waves
+	url = https://github.com/drinfernoo/resource.images.arctic.waves
+[submodule "repo/context.themoviedb.helper"]
+	path = repo/context.themoviedb.helper
+	url = https://github.com/jurialmunkey/context.themoviedb.helper
+[submodule "repo/screensaver.arctic.mirage"]
+	path = repo/screensaver.arctic.mirage
+	url = https://github.com/drinfernoo/screensaver.arctic.mirage
+[submodule "repo/moviegenreicons.horizon"]
+	path = repo/moviegenreicons.horizon
+	url = https://github.com/Swageroni/resource.images.moviegenreicons.horizon
+[submodule "repo/script.texturemaker"]
+	path = repo/script.texturemaker
+	url = https://github.com/jurialmunkey/script.texturemaker
+[submodule "repo/font.robotocjksc"]
+	path = repo/font.robotocjksc
+	url = https://github.com/jurialmunkey/resource.font.robotocjksc
+[submodule "repo/script.module.jurialmunkey"]
+	path = repo/script.module.jurialmunkey
+	url = https://github.com/jurialmunkey/script.module.jurialmunkey
+[submodule "repo/script.wikipedia"]
+	path = repo/script.wikipedia
+	url = https://github.com/jurialmunkey/script.wikipedia.git
+[submodule "repo/script.module.infotagger"]
+	path = repo/script.module.infotagger
+	url = https://github.com/jurialmunkey/script.module.infotagger
