@@ -691,7 +691,7 @@
             <align>center</align>
             <font>font_info_black</font>
             <textcolor>$VAR[ColorHighlight]</textcolor>
-            <label>[COLOR=main_logo]Arctic[/COLOR] Horizon 2</label>
+            <label>[COLOR=main_logo]Arctic[/COLOR] Horizon 3</label>
         </control>
         <control type="group">
             <bottom>80</bottom>

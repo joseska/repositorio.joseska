@@ -47,6 +47,7 @@
                 <align>center</align>
                 <textcolor>main_logo</textcolor>
                 <label>$INFO[Window.Property(InitStatus)]...</label>
+
             </control>
             <control type="group">
                 <centertop>700</centertop>
