@@ -348,7 +348,7 @@
     <fanart>fanart.jpg</fanart>
   </assets>
 </extension>
-</addon><addon id="skin.arctic.horizon.3" name="Arctic Horizon 3" provider-name="Jon y Joseska" version="0.9.3">
+</addon><addon id="skin.arctic.horizon.3" name="Arctic Horizon 3" provider-name="Jon y Joseska" version="0.9.4">
     <requires>
         <import addon="xbmc.gui" version="5.15.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
