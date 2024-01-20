@@ -37,3 +37,6 @@
 [submodule "repo/repository.rector.stuff"]
 	path = repo/repository.rector.stuff
 	url = https://github.com/rmrector/repository.rector.stuff
+[submodule "repo/repository.marcelveldt"]
+	path = repo/repository.marcelveldt
+	url = https://github.com/kodi-community-addons/repository.marcelveldt
