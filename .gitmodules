@@ -31,3 +31,9 @@
 [submodule "repo/script.module.infotagger"]
 	path = repo/script.module.infotagger
 	url = https://github.com/jurialmunkey/script.module.infotagger
+[submodule "repo/repository.jurialmunkey"]
+	path = repo/repository.jurialmunkey
+	url = https://github.com/jurialmunkey/repository.jurialmunkey
+[submodule "repo/repository.rector.stuff"]
+	path = repo/repository.rector.stuff
+	url = https://github.com/rmrector/repository.rector.stuff

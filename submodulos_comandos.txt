@@ -9,3 +9,9 @@ git submodule add https://github.com/jurialmunkey/resource.font.robotocjksc repo
 git submodule add https://github.com/jurialmunkey/script.module.jurialmunkey repo/script.module.jurialmunkey 
 git submodule add https://github.com/jurialmunkey/script.wikipedia.git repo/script.wikipedia
 git submodule add https://github.com/jurialmunkey/script.module.infotagger repo/script.module.infotagger
+git submodule add https://github.com/jurialmunkey/repository.jurialmunkey repo/repository.jurialmunkey
+git submodule add https://github.com/rmrector/repository.rector.stuff repo/repository.rector.stuff
+
+
+
+git submodule add https://github.com/kodi-community-addons/repository.marcelveldt repo/repository.marcelveldt
