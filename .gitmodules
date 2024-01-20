@@ -40,3 +40,6 @@
 [submodule "repo/repository.marcelveldt"]
 	path = repo/repository.marcelveldt
 	url = https://github.com/kodi-community-addons/repository.marcelveldt
+[submodule "repo/repositorio.Luar"]
+	path = repo/repositorio.Luar
+	url = https://github.com/LuarSource/Fuente/
