@@ -81,7 +81,7 @@
     <screenshot>resources/screenshot-02.jpg</screenshot>
   </assets>
 </extension>
-</addon><addon id="repositorio.joseska" name="repositorio.joseska" version="0.1.3" provider-name="joseska">
+</addon><addon id="repositorio.joseska" name="repositorio.joseska" version="0.1.4" provider-name="joseska">
     <extension point="xbmc.addon.repository" name="Example Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/joseska/repositorio.joseska/master/repo/zips/addons.xml</info>
@@ -136,6 +136,23 @@
             <icon>icon.png</icon>
         </assets>
     </extension>
+</addon><addon id="repository.luar" name="[COLOR lime]Repositorio Luar[/COLOR]" version="2.0.0" provider-name="The Dreamers">
+    <extension point="xbmc.addon.repository" name="Luar official Repo">
+    	<dir minversion="18.9.0">
+		    <info compressed="false">https://raw.githubusercontent.com/Masterwine/Luar/master/repor/addons.xml</info>
+		    <checksum>https://raw.githubusercontent.com/Masterwine/Luar/master/repor/addons.xml.md5</checksum>
+		    <datadir zip="true">https://raw.githubusercontent.com/Masterwine/Luar/master/repor/</datadir>
+	    </dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary />
+   		<description lang="en">[COLOR gold]Instala Luar[/COLOR]</description>
+		<platform>all</platform>
+		<assets>
+            <icon>icon.gif</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+	</extension>
 </addon><addon id="repository.marcelveldt" version="1.0.3" name="Marcelveldt's BETA repository" provider-name="marcelveldt, finkleandeinhorn">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0" />
