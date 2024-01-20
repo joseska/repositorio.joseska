@@ -1,0 +1,11 @@
+git submodule add https://github.com/jurialmunkey/plugin.video.themoviedb.helper repo/plugin.video.themoviedb.helper
+git submodule add https://github.com/jurialmunkey/script.skinvariables repo/script.skinvariables
+git submodule add https://github.com/drinfernoo/resource.images.arctic.waves repo/resource.images.arctic.waves
+git submodule add https://github.com/jurialmunkey/context.themoviedb.helper repo/context.themoviedb.helper
+git submodule add https://github.com/drinfernoo/screensaver.arctic.mirage repo/screensaver.arctic.mirage
+git submodule add https://github.com/Swageroni/resource.images.moviegenreicons.horizon repo/moviegenreicons.horizon
+git submodule add https://github.com/jurialmunkey/script.texturemaker repo/script.texturemaker 
+git submodule add https://github.com/jurialmunkey/resource.font.robotocjksc repo/font.robotocjksc
+git submodule add https://github.com/jurialmunkey/script.module.jurialmunkey repo/script.module.jurialmunkey 
+git submodule add https://github.com/jurialmunkey/script.wikipedia.git repo/script.wikipedia
+git submodule add https://github.com/jurialmunkey/script.module.infotagger repo/script.module.infotagger
