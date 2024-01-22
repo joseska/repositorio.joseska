@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repositorio.joseska" name="repositorio.joseska" version="0.1.4" provider-name="joseska">
-    <extension point="xbmc.addon.repository" name="Example Repository">
+<addon id="repositorio.joseska" name="repositorio.joseska" version="0.1.5" provider-name="joseska">
+    <extension point="xbmc.addon.repository" name="joseska Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/joseska/repositorio.joseska/master/repo/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/joseska/repositorio.joseska/master/repo/zips/addons.xml.md5</checksum>
