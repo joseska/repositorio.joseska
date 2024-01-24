@@ -120,10 +120,15 @@
         <value condition="$EXP[Exp_IsPVRItem] + !String.IsEmpty(ListItem.Title)" />
         <value>$INFO[ListItem.Label]</value>
     </variable> -->
+
+
     <variable name="Label_Landscape_Upper">
         <!-- <value condition="!String.IsEmpty(ListItem.TvShowTitle) + !String.IsEqual(ListItem.Label,ListItem.TVShowTitle) + !String.IsEqual(ListItem.DBType,tvshow) + $EXP[Exp_WidgetWindow]">$INFO[ListItem.Label]</value> -->
         <value condition="$EXP[Exp_IsPVRItem] + !String.IsEmpty(ListItem.Title)">$INFO[ListItem.ChannelName]</value>
-        <value>$INFO[ListItem.Label]</value>
+		<!-- Joseska - Título Widget Landscape. Label muestra la información con Año y calidad incluso con esto deshabilitado en Palantir3. Title NO. -->
+        <!-- <value>$INFO[ListItem.Label]</value> -->
+		<value>$INFO[ListItem.Title]</value>
+		<!-- FIN Joseska -->
     </variable>
     <variable name="Label_Landscape_Lower">
         <!-- <value condition="!String.IsEmpty(ListItem.TvShowTitle) + !String.IsEqual(ListItem.Label,ListItem.TVShowTitle) + !String.IsEqual(ListItem.DBType,tvshow) + $EXP[Exp_WidgetWindow]">$INFO[ListItem.TvShowTitle]</value> -->
@@ -132,6 +137,7 @@
         <value condition="!String.IsEmpty(ListItem.Genre)">$INFO[ListItem.Genre]</value>
         <value condition="!String.IsEmpty(ListItem.Premiered)">$INFO[ListItem.Premiered]</value>
     </variable>
+
 
     <variable name="Label_Setting_HomeMenuDirectionPress">
         <value condition="Skin.HasSetting(Home.VerticalMenu)">$LOCALIZE[31370]</value>

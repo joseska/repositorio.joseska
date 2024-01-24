@@ -1421,6 +1421,7 @@
             <top>20</top>
             <bottom>20</bottom>
             <right>0</right>
+            <!-- Joseska - Variable título(1x01 - Bienvenido a Margabre) de la Serie en la pantalla de Información al darle a la derecha que sale la lista de Episodios/capítulos -->
             <control type="label">
                 <left>0</left>
                 <height>40</height>
@@ -1430,10 +1431,12 @@
                 <font>font_main_bold</font>
                 <align>left</align>
             </control>
+            <!-- FIN Joseska -->
             <control type="label">
                 <left>0</left>
                 <height>40</height>
                 <include condition="$PARAM[selected]">Color_SelectedText</include>
+                <!-- Joseska - Variable Fecha y duración de la Serie en la pantalla de Información al darle a la derecha que sale la lista de Episodios/capítulos -->
                 <label>$VAR[Label_ListEpisode]</label>
                 <textcolor>main_fg_90</textcolor>
                 <font>font_mini</font>
@@ -1443,6 +1446,7 @@
                 <left>0</left>
                 <top>45</top>
                 <include condition="$PARAM[selected]">Color_SelectedText</include>
+                <!-- Joseska - Variable Título + Descripción del  Capítulo en la pantalla de Información al darle a la derecha que sale la lista de Episodios/capítulos -->
                 <label>$VAR[Label_ListPlot]</label>
                 <textcolor>main_fg_70</textcolor>
                 <font>font_mini_plot</font>
@@ -2043,7 +2047,9 @@
                     <top>$PARAM[item_w]</top>
                     <control type="label">
                         <include condition="$PARAM[selected]">Color_SelectedText</include>
-                        <label>$INFO[ListItem.Label]</label>
+                        <!-- Joseska - Label Widget Square - Nombre Película/Serie -->
+						<!-- <label>$INFO[ListItem.Label]</label> -->
+                        <label>$INFO[ListItem.Title]</label>
                         <textcolor>main_fg_70</textcolor>
                         <font>font_mini_bold</font>
                         <textoffsetx>20</textoffsetx>
@@ -2170,7 +2176,9 @@
                         <bottom>10</bottom>
                         <control type="label">
                             <include condition="$PARAM[selected]">Color_SelectedText</include>
+                            <!-- Joseska - Variable Label Widget Landscape - Nombre Película/Serie - Includes_labels.xml(123) -->
                             <label>$VAR[Label_Landscape_Upper]</label>
+                            <!-- FIN Joseska -->
                             <textcolor>$PARAM[textcolor]_70</textcolor>
                             <selectedcolor>$PARAM[textcolor]_70</selectedcolor>
                             <font>font_mini_bold</font>
