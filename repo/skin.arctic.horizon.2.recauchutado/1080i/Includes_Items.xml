@@ -276,7 +276,10 @@
             <param name="sliceid" value="5205" />
             <param name="label" value="Wiki" />
             <param name="icon" value="special://skin/extras/icons/globe.png" />
-            <oninfo>runscript(plugin.video.themoviedb.helper,wikipedia=$VAR[Path_Wikipedia_Title],tmdb_type=$VAR[Path_Wikipedia_Type])</oninfo>
+            <!-- <oninfo>runscript(plugin.video.themoviedb.helper,wikipedia=$VAR[Path_Wikipedia_Title],tmdb_type=$VAR[Path_Wikipedia_Type])</oninfo> -->
+			<!-- <onclick>runscript(script.wikipedia,wikipedia=$VAR[Path_Wikipedia_Title],tmdb_type=$VAR[Path_Wikipedia_Type],language=en)</onclick> -->
+			<onclick>runscript(plugin.video.themoviedb.helper,wikipedia=$VAR[Path_Wikipedia_Title],tmdb_type=$VAR[Path_Wikipedia_Type])</onclick>
+
             <include content="OSD_Button_HintLabel">
                 <param name="label">Wiki</param>
             </include>
@@ -358,7 +361,7 @@
             <param name="icon" value="special://skin/extras/icons/globe.png" />
             <onclick>runscript(plugin.video.themoviedb.helper,wikipedia=$VAR[Path_Wikipedia_Title],tmdb_type=$VAR[Path_Wikipedia_Type])</onclick>
             <include content="OSD_Button_HintLabel">
-                <param name="label">Wiki</param>
+                <param name="label">Wiki3</param>
             </include>
         </include>
 		<!-- FIN Joseska -->

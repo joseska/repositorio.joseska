@@ -536,6 +536,10 @@
         <value condition="True">$INFO[Container(50).ListItem.Icon]</value>
     </variable>
     <variable name="Image_Landscape">
+		<!-- joseska - Si estas en Episodios muestras "icon" si estas en cualquier otro sitio, muestras "fanart". Lo que puedo hacer con lo poco que da Palantir -->
+		<value condition="String.IsEqual(ListItem.DBType,episode)">$INFO[ListItem.Icon]</value>
+		<!-- <value condition="!String.IsEqual(ListItem.DBType,episode) | String.IsEqual(ListItem.DBType,season)">$INFO[Container(99950).ListItem.Art(fanart)]</value> -->
+		<!-- FIN Joseska -->
         <value condition="Container.Content(images)">$INFO[ListItem.Icon]</value>
         <value condition="[String.IsEqual(ListItem.DBType,episode) | String.IsEqual(ListItem.DBType,video)] + !String.IsEmpty(ListItem.Art(thumb)) + !String.IsEqual(ListItem.Icon,ListItem.Art(fanart)) + !String.IsEqual(ListItem.Icon,OverlaySpoiler.png) + !String.IsEqual(ListItem.Art(thumb),ListItem.Art(poster)) + !String.IsEqual(ListItem.Art(thumb),ListItem.Art(tvshow.poster))">$INFO[ListItem.Art(thumb)]</value>
         <value condition="!String.IsEmpty(ListItem.Art(landscape)) + !Skin.HasSetting(DisableLandscapeArt)">$INFO[ListItem.Art(landscape)]</value>
@@ -546,6 +550,21 @@
         <value condition="!String.IsEmpty(ListItem.EPGEventIcon)">$INFO[ListItem.EPGEventIcon]</value>
         <value condition="!String.IsEmpty(ListItem.Art(thumb))">$INFO[ListItem.Art(thumb)]</value>
         <value condition="True">$INFO[ListItem.Icon]</value>
+    </variable>
+	<variable name="Image_Landscape_2" containers="50">
+		<!-- <value condition="!String.IsEmpty(ListItem.Art(thumb)">$INFO[ListItem.Art(thumb)]</value> -->
+		<value condition="String.IsEqual(ListItem.DBType,episode)">$INFO[ListItem.Icon]</value>
+		<value condition="!String.IsEqual(ListItem.DBType,episode)">$INFO[Container(99950).ListItem.Art(fanart)]</value>
+		
+
+		
+		<!-- <value>$INFO[ListItem.Icon]</value> -->
+		<!-- <value>$INFO[ListItem.Art(fanart)]</value> -->
+		<!-- <value>$INFO[Container(99950).ListItem.Art(thumb)]</value> -->
+		<!-- <value>$INFO[Container(99950).ListItem.Art(fanart)]</value> -->
+		<!-- <value>$INFO[Container(99950).ListItem.Icon]</value> -->
+		<!-- <value>$INFO[ListItem.Property(Fanart_Image)]</value> -->
+
     </variable>
     <variable name="Image_Overlay_C50">
         <value condition="[String.IsEqual(Container(50).ListItem.DBType,tvshow) | String.IsEqual(Container(50).ListItem.DBType,season) | String.IsEqual(Container(50).ListItem.DBType,episode)] + !Integer.IsEqual(Container(50).ListItem.Property(UnWatchedEpisodes),0) + !Container(50).ListItem.IsResumable + !Skin.HasSetting(Indicator.DisableEpisodes)">common/null.png</value>

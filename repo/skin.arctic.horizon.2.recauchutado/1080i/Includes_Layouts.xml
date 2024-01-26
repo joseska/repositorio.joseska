@@ -1488,7 +1488,9 @@
                                 <param name="pad">20</param>
                             </include>
                             <control type="image">
-                                <texture background="true" diffuse="diffuse/landscape_w213_h120.png">$VAR[Image_Landscape]</texture>
+								<!-- Joseska - Cambio para que se vez la imagen de cada capítulo en vez de la misma imagen de la serie en todos los capítulos -->
+                                <!-- <texture background="true" diffuse="diffuse/landscape_w213_h120.png">$VAR[Image_Landscape]</texture> -->
+								<texture background="true" diffuse="diffuse/landscape_w213_h120.png">$INFO[ListItem.Icon]</texture>
                                 <aspectratio scalediffuse="false">scale</aspectratio>
                             </control>
                         </control>
@@ -2130,6 +2132,7 @@
         <param name="artwork_h">230.625</param>
         <param name="selected">false</param>
         <param name="icon">$VAR[Image_Landscape]</param>
+		<!-- <param name="icon">$VAR[Image_Landscape_2]</param> -->
         <param name="textcolor">main_fg</param>
         <param name="diffuse">diffuse/landscape_w410_h231.png</param>
         <definition>
