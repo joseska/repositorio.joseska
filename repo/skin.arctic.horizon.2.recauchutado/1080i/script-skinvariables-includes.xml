@@ -640,4 +640,64 @@
         <value condition="Window.IsVisible(AddonBrowser.xml) + ListItem.Property(addon.hasupdate)">indicator/circle</value>
         <value condition="Window.IsVisible(AddonBrowser.xml) + ListItem.Property(addon.isinstalled)">indicator/circle</value>
     </variable>
+
+    <!-- joseska variables -->
+    <variable name="clearlogo_ska_C50">
+        <value condition="!String.IsEmpty(Container(50).ListItem.Art(clearlogo))">$INFO[Container(50).ListItem.Art(clearlogo)]</value>
+        <value condition="!String.IsEmpty(Container(50).ListItem.Art(tvshow.clearlogo))">$INFO[Container(50).ListItem.Art(tvshow.clearlogo)]</value>
+        <value condition="!String.IsEmpty(Container(50).ListItem.Art(artist.clearlogo))">$INFO[Container(50).ListItem.Art(artist.clearlogo)]</value>
+    </variable>
+    <variable name="clearlogo_ska_C591">
+        <value condition="!String.IsEmpty(Container(591).ListItem.Art(clearlogo))">$INFO[Container(591).ListItem.Art(clearlogo)]</value>
+        <value condition="!String.IsEmpty(Container(591).ListItem.Art(tvshow.clearlogo))">$INFO[Container(591).ListItem.Art(tvshow.clearlogo)]</value>
+        <value condition="!String.IsEmpty(Container(591).ListItem.Art(artist.clearlogo))">$INFO[Container(591).ListItem.Art(artist.clearlogo)]</value>
+    </variable>
+    <variable name="clearlogo_ska_C503">
+        <value condition="!String.IsEmpty(Container(503).ListItem.Art(clearlogo))">$INFO[Container(503).ListItem.Art(clearlogo)]</value>
+        <value condition="!String.IsEmpty(Container(503).ListItem.Art(tvshow.clearlogo))">$INFO[Container(503).ListItem.Art(tvshow.clearlogo)]</value>
+        <value condition="!String.IsEmpty(Container(503).ListItem.Art(artist.clearlogo))">$INFO[Container(503).ListItem.Art(artist.clearlogo)]</value>
+    </variable>
+    <variable name="clearlogo_ska_C513">
+        <value condition="!String.IsEmpty(Container(513).ListItem.Art(clearlogo))">$INFO[Container(513).ListItem.Art(clearlogo)]</value>
+        <value condition="!String.IsEmpty(Container(513).ListItem.Art(tvshow.clearlogo))">$INFO[Container(513).ListItem.Art(tvshow.clearlogo)]</value>
+        <value condition="!String.IsEmpty(Container(513).ListItem.Art(artist.clearlogo))">$INFO[Container(513).ListItem.Art(artist.clearlogo)]</value>
+    </variable>
+    <variable name="clearlogo_ska_C523">
+        <value condition="!String.IsEmpty(Container(523).ListItem.Art(clearlogo))">$INFO[Container(523).ListItem.Art(clearlogo)]</value>
+        <value condition="!String.IsEmpty(Container(523).ListItem.Art(tvshow.clearlogo))">$INFO[Container(523).ListItem.Art(tvshow.clearlogo)]</value>
+        <value condition="!String.IsEmpty(Container(523).ListItem.Art(artist.clearlogo))">$INFO[Container(523).ListItem.Art(artist.clearlogo)]</value>
+    </variable>
+    <variable name="clearlogo_ska_C573">
+        <value condition="!String.IsEmpty(Container(573).ListItem.Art(clearlogo))">$INFO[Container(573).ListItem.Art(clearlogo)]</value>
+        <value condition="!String.IsEmpty(Container(573).ListItem.Art(tvshow.clearlogo))">$INFO[Container(573).ListItem.Art(tvshow.clearlogo)]</value>
+        <value condition="!String.IsEmpty(Container(573).ListItem.Art(artist.clearlogo))">$INFO[Container(573).ListItem.Art(artist.clearlogo)]</value>
+    </variable>
+    <variable name="clearlogo_ska_C301">
+        <value condition="!String.IsEmpty(Container(301).ListItem.Art(clearlogo))">$INFO[Container(301).ListItem.Art(clearlogo)]</value>
+        <value condition="!String.IsEmpty(Container(301).ListItem.Art(tvshow.clearlogo))">$INFO[Container(301).ListItem.Art(tvshow.clearlogo)]</value>
+        <value condition="!String.IsEmpty(Container(301).ListItem.Art(artist.clearlogo))">$INFO[Container(301).ListItem.Art(artist.clearlogo)]</value>
+    </variable>
+    <variable name="clearlogo_ska">
+        <value condition="!String.IsEmpty(ListItem.Art(clearlogo))">$INFO[ListItem.Art(clearlogo)]</value>
+        <value condition="!String.IsEmpty(ListItem.Art(tvshow.clearlogo))">$INFO[ListItem.Art(tvshow.clearlogo)]</value>
+        <value condition="!String.IsEmpty(ListItem.Art(artist.clearlogo))">$INFO[ListItem.Art(artist.clearlogo)]</value>
+    </variable>
+    <variable name="clearlogo_ska_C99950">
+        <value condition="!String.IsEmpty(Container(99950).ListItem.Art(cropimage))">$INFO[Container(99950).ListItem.Art(cropimage)]</value>
+        <value condition="!String.IsEmpty(Container(99950).ListItem.Property(base_clearlogo))">$INFO[Container(99950).ListItem.Property(base_clearlogo)]</value>
+        <value condition="!String.IsEmpty(Container(99950).ListItem.Art(clearlogo))">$INFO[Container(99950).ListItem.Art(clearlogo)]</value>
+        <value condition="!String.IsEmpty(Container(99950).ListItem.Art(tvshow.clearlogo))">$INFO[Container(99950).ListItem.Art(tvshow.clearlogo)]</value>
+        <value condition="!String.IsEmpty(Container(99950).ListItem.Art(artist.clearlogo))">$INFO[Container(99950).ListItem.Art(artist.clearlogo)]</value>
+    </variable>
+    <variable name="clearlogo_ska_Parent">
+        <value condition="Control.HasFocus(50)">$VAR[clearlogo_ska_C50]</value>
+        <value condition="Control.HasFocus(591)">$VAR[clearlogo_ska_C591]</value>
+        <value condition="Control.HasFocus(503)">$VAR[clearlogo_ska_C503]</value>
+        <value condition="Control.HasFocus(513)">$VAR[clearlogo_ska_C513]</value>
+        <value condition="Control.HasFocus(523)">$VAR[clearlogo_ska_C523]</value>
+        <value condition="Control.HasFocus(573)">$VAR[clearlogo_ska_C573]</value>
+        <value condition="Control.HasFocus(301)">$VAR[clearlogo_ska_C301]</value>
+        <value condition="True">$VAR[clearlogo_ska_C99950]</value>
+        <value condition="True">$VAR[clearlogo_ska]</value>
+    </variable>
 </includes>

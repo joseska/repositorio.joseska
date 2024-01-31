@@ -397,7 +397,7 @@ msgstr "Buscar por"
 
 #: /1080i/Home.xml
 msgctxt "#31077"
-msgid "Información"
+msgid "More Information"
 msgstr "Información"
 
 #: /shortcuts/overrides.xml
@@ -1948,3 +1948,31 @@ msgstr "Carpeta de iconos de género personalizado"
 msgctxt "#31386"
 msgid "Unwatched only"
 msgstr "Solo no vistos"
+
+### INI Joseska Jon ###
+#: /1080i/SkinSettings.xml
+msgctxt "#31500"
+msgid "Show title on Infoline"
+msgstr "Mostrar/Ocultar Titulo en Infoline"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31501"
+msgid "Show play button"
+msgstr "Mostrar/Ocultar Botón Reproducir"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31502"
+msgid "Show info button"
+msgstr "Mostrar/Ocultar Botón Más Información"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31503"
+msgid "Official Spain MPAA icons"
+msgstr "Utilizar iconos MPAA oficiales en lugar de obsoletos"
+
+#: /1080i/Items.xml
+msgctxt "#31504"
+msgid "Watch"
+msgstr "Ver"
+
+### FIN Joseska Jon ###

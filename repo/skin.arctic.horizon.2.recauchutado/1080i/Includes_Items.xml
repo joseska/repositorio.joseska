@@ -1810,21 +1810,29 @@
             <param name="control" value="radiobutton" />
             <onclick>Skin.ToggleSetting(Infoline.EnableTitle1)</onclick>
             <selected>Skin.HasSetting(Infoline.EnableTitle1)</selected>
-            <label>Mostrar/Ocultar Titulo en Infoline</label>
+            <label>$LOCALIZE[31500]</label>
         </include>
 		<include content="Dialog_Settings_Button">
             <param name="id" value="8002" />
             <param name="control" value="radiobutton" />
             <onclick>Skin.ToggleSetting(Infoline.PlayButton1)</onclick>
             <selected>Skin.HasSetting(Infoline.PlayButton1)</selected>
-            <label>Mostrar/Ocultar Botón Reproducir</label>
+            <label>$LOCALIZE[31501]</label>
         </include>
 		<include content="Dialog_Settings_Button">
             <param name="id" value="8003" />
             <param name="control" value="radiobutton" />
             <onclick>Skin.ToggleSetting(Infoline.InfoButton1)</onclick>
             <selected>Skin.HasSetting(Infoline.InfoButton1)</selected>
-            <label>Mostrar/Ocultar Botón Mas Información</label>
+            <label>$LOCALIZE[31502]</label>
+        </include>
+        <!-- Jon - Opcion para iconos MPAA oficiales de España-->
+		<include content="Dialog_Settings_Button">
+            <param name="id" value="8004" />
+            <param name="control" value="radiobutton" />
+            <onclick>Skin.ToggleSetting(Furniture.MPAAOficialesButton1)</onclick>
+            <selected>Skin.HasSetting(Furniture.MPAAOficialesButton1)</selected>
+            <label>$LOCALIZE[31503]</label>
         </include>
 	</include>
 	<!-- Fin Joseska -->

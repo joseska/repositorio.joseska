@@ -398,7 +398,7 @@ msgstr ""
 # Joseska - Texto Boton Mas Informacion
 #: /1080i/Home.xml
 msgctxt "#31077"
-msgid "Mas Información"
+msgid "More Information"
 msgstr ""
 # FIN Joseska
 
@@ -1946,3 +1946,31 @@ msgstr ""
 msgctxt "#31386"
 msgid "Unwatched only"
 msgstr ""
+
+### INI Joseska Jon ###
+#: /1080i/SkinSettings.xml
+msgctxt "#31500"
+msgid "Show title on Infoline"
+msgstr ""
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31501"
+msgid "Show play button"
+msgstr ""
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31502"
+msgid "Show info button"
+msgstr ""
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31503"
+msgid "Official Spain MPAA icons"
+msgstr ""
+
+#: /1080i/Items.xml
+msgctxt "#31504"
+msgid "Watch"
+msgstr ""
+
+### FIN Joseska Jon ###

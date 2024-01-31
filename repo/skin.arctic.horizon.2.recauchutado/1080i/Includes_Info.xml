@@ -521,7 +521,9 @@
 					<include content="Info_Line_Label" condition="!$PARAM[player] + !Skin.HasSetting(Infoline.DisableMPAA)">
                         <param name="controltype" value="$PARAM[controltype]" />
 						<param name="label">$INFO[Container(99950).ListItem.MPAA]</param>
+                        <param name="label" value="$INFO[$PARAM[container]ListItem.MPAA]" />
 						<param name="visible">!String.IsEmpty(Container(99950).ListItem.MPAA)</param>
+                        <param name="visible" value="!String.IsEmpty($PARAM[container]ListItem.MPAA)" />
                         <param name="textcolor" value="$PARAM[colordiffuse]_90" />
                     </include>
 					<!-- Fin Joseska -->
@@ -1626,17 +1628,32 @@
                 <!-- TvShow Total Episodes / Seasons -->
                 <include content="Info_Codec_Label">
                     <param name="icon" value="special://skin/extras/icons/share-nodes.png" />
+                   <!--  <param name="label" value="$INFO[ListItem.Property(TotalSeasons),[B],[/B] $LOCALIZE[33054]]" />
+                    <visible>String.IsEqual(ListItem.DBType,tvshow)</visible>
+                    <visible>!String.IsEmpty(ListItem.Property(TotalSeasons))</visible> -->
+                    
+                    <!-- INI Jon - Mostrar el numero de Temporadas desde otros addons o desde TMDB -->
+                    <param name="label" value="$INFO[Container(99950).ListItem.Season,[B],[/B] $LOCALIZE[33054]]" />
                     <param name="label" value="$INFO[ListItem.Property(TotalSeasons),[B],[/B] $LOCALIZE[33054]]" />
                     <visible>String.IsEqual(ListItem.DBType,tvshow)</visible>
-                    <visible>!String.IsEmpty(ListItem.Property(TotalSeasons))</visible>
+                    <visible>!String.IsEmpty(Container(99950).ListItem.Season) | !String.IsEmpty(ListItem.Property(TotalSeasons))</visible>
+                    <!-- FIN Jon-->
                 </include>
 
                 <!-- Season Total Episodes and Unwatched -->
                 <include content="Info_Codec_Label">
                     <param name="icon" value="special://skin/extras/icons/square-poll-horizontal.png" />
+                    <!-- Jon - Lineas originales comentadas -->
+                    <!-- <param name="label" value="$INFO[ListItem.Property(TotalEpisodes),[B],[/B] $LOCALIZE[20360]   ]$INFO[ListItem.Property(WatchedEpisodes),[B],[/B] $LOCALIZE[16102]]" />
+                    <visible>String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,season)</visible>
+                    <visible>!String.IsEmpty(ListItem.Property(TotalEpisodes))</visible> -->
+                    
+                    <!-- INI Jon -  Mostrar el numero de Episodios desde otros addons o desde TMDB -->
+                    <param name="label" value="$INFO[Container(99950).ListItem.Episode,[B],[/B] $LOCALIZE[20360]   ]$INFO[ListItem.Property(WatchedEpisodes),[B],[/B] $LOCALIZE[16102]]" />
                     <param name="label" value="$INFO[ListItem.Property(TotalEpisodes),[B],[/B] $LOCALIZE[20360]   ]$INFO[ListItem.Property(WatchedEpisodes),[B],[/B] $LOCALIZE[16102]]" />
                     <visible>String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,season)</visible>
-                    <visible>!String.IsEmpty(ListItem.Property(TotalEpisodes))</visible>
+                    <visible>!String.IsEmpty(Container(99950).ListItem.Episode) | !String.IsEmpty(ListItem.Property(TotalEpisodes))</visible>
+                    <!-- FIN Jon-->
                 </include>
 
                 <!-- Total Duration Songs View -->
@@ -1753,8 +1770,12 @@
                 <include>Texture_Shadow_Provider</include>
                 <texture background="true" diffuse="diffuse/provider_circle.png">$INFO[Container(99950).ListItem.Property(Provider.$PARAM[pos].Icon)]</texture>
             </control>
+            <!-- Jon - líneas originales comentadas-->
+            <!-- <visible>!String.IsEmpty(Container(99950).ListItem.Property(Provider.$PARAM[pos].Icon))</visible> -->
+            <!-- <visible>[String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,episode)]</visible> -->
+            <!-- INI Jon - Mostrar los Proveedores/Servicios de streaming-->
             <visible>!String.IsEmpty(Container(99950).ListItem.Property(Provider.$PARAM[pos].Icon))</visible>
-            <visible>[String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,episode)]</visible>
+            <!-- FIN Jon-->
         </include>
     </include>
 
@@ -1772,7 +1793,10 @@
                 <height>80</height>
                 <aspectratio align="right">keep</aspectratio>
                 <texture>$VAR[Image_CombinedStudio]</texture>
-                <visible>!String.IsEmpty(ListItem.Studio) | !String.IsEmpty(ListItem.Property(Network))</visible>
+                <!-- INI Jon - Mostrar los estudios -->
+                <!-- <visible>!String.IsEmpty(ListItem.Studio) | !String.IsEmpty(ListItem.Property(Network))</visible> -->
+                <visible>!String.IsEmpty(Container(99950).ListItem.Studio) | !String.IsEmpty(Container(99950).ListItem.Property(Network)) | !String.IsEmpty(ListItem.Studio) | !String.IsEmpty(ListItem.Property(Network))</visible>
+                <!-- FIN Jon-->
                 <centertop>50%</centertop>
             </include>
             <include content="Object_Control" condition="!String.IsEmpty(Skin.String(MPAA_Country))">
@@ -1782,7 +1806,10 @@
                 <aspectratio align="center">keep</aspectratio>
                 <texture>$VAR[MPAA_ImageConvert,flags/color/mpaa/,]</texture>
                 <centertop>50%</centertop>
-                <visible>!String.IsEmpty(ListItem.MPAA)</visible>
+                <!-- INI Jon - Mostrar las clasificaciones por edad de MPAA-->
+                <!-- <visible>!String.IsEmpty(ListItem.MPAA)</visible> -->
+                <visible>!String.IsEmpty(Container(99950).ListItem.MPAA) | !String.IsEmpty(ListItem.MPAA)</visible>
+                <!-- FIN Jon -->
             </include>
         </control>
     </include>

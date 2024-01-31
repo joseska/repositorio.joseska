@@ -250,10 +250,25 @@
     </variable>
 
     <variable name="Image_CombinedStudio">
+        <!-- INI Jon - Para mostrar las imágenes del Estudio -->
+            <!-- Comentado lo original-->
+        <!-- <value condition="Container.Content(studios)">$INFO[ListItem.Label,resource://resource.images.studios.coloured/,.png]</value>
+        <value condition="!String.IsEmpty(ListItem.Property(Network))">$INFO[ListItem.Property(Network),resource://resource.images.studios.coloured/,.png]</value>
+        <value condition="!String.IsEmpty(ListItem.Property(Studio))">$INFO[ListItem.Property(Studio),resource://resource.images.studios.coloured/,.png]</value>
+        <value condition="!String.IsEmpty(ListItem.Studio)">$INFO[ListItem.Studio,resource://resource.images.studios.coloured/,.png]</value> -->
+        
+        <value condition="Container.Content(studios)">$INFO[Container(99950).ListItem.Label,resource://resource.images.studios.coloured/,.png]</value>
+        <value condition="!String.IsEmpty(Container(99950).ListItem.Property(Network))">$INFO[Container(99950).ListItem.Property(Network),resource://resource.images.studios.coloured/,.png]</value>
+        <value condition="!String.IsEmpty(Container(99950).ListItem.Property(Studio))">$INFO[Container(99950).ListItem.Property(Studio),resource://resource.images.studios.coloured/,.png]</value>
+        <value condition="!String.IsEmpty(Container(99950).ListItem.Studio)">$INFO[Container(99950).ListItem.Studio,resource://resource.images.studios.coloured/,.png]</value>
+
         <value condition="Container.Content(studios)">$INFO[ListItem.Label,resource://resource.images.studios.coloured/,.png]</value>
         <value condition="!String.IsEmpty(ListItem.Property(Network))">$INFO[ListItem.Property(Network),resource://resource.images.studios.coloured/,.png]</value>
         <value condition="!String.IsEmpty(ListItem.Property(Studio))">$INFO[ListItem.Property(Studio),resource://resource.images.studios.coloured/,.png]</value>
         <value condition="!String.IsEmpty(ListItem.Studio)">$INFO[ListItem.Studio,resource://resource.images.studios.coloured/,.png]</value>
+
+        <!-- FIN Jon -->
+
     </variable>
 
     <variable name="Image_OSD_DirectorIcon">
