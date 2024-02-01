@@ -2,6 +2,11 @@
 
 ![Repositorio Joseska.](repo/repositorio.joseska/fanart2.jpg)
 
+### Actualización 0.2.4
+- [x] Nuevo pack de iconos "Modernos" (una nueva visión recauchutada).
+- [x] Icono por defecto si no se encuentra la clasificación por edad (fondo negro con dos guiones blancos). Independiente del estilo elegido.
+- [x] Nueva opción de menú en Decoraciones, en la sección Pie de página, llamada "Estilo de iconos MPAA" que permite seleccionar entre "Modernos" (por defecto), "Antiguos" (los típicos de años pasados en TV) o los "Oficiales" (aparentemente los iconos oficiales de MPAA en España, si alguien los ha visto por ahí debe ser el único 😅).
+
 ### Actualización 0.2.3
 - [x] Mostrar temporadas en footer.
 - [x] Mostrar episodios en footer.
