@@ -545,5 +545,12 @@
         <value condition="!String.IsEmpty(Container(99950).ListItem.Title)">$INFO[Container(99950).ListItem.Title]</value>
         <value condition="!String.IsEmpty(Container(99950).ListItem.Label)">$INFO[Container(99950).ListItem.Label]</value>
     </variable>
-
+	
+	<!-- INI Jon - Variable con los valores para el selector de iconos de MPAA. "Modernos", por defecto -->
+    <variable name="Label_Extras_MPAAIcons">
+        <value condition="Skin.HasSetting(Furniture.MPAAOld)">$LOCALIZE[31505]</value>
+        <value condition="Skin.HasSetting(Furniture.MPAAOfficial)">$LOCALIZE[31506]</value>
+        <value>$LOCALIZE[31507]</value>
+    </variable>
+	<!-- FIN Jon  -->
 </includes>

@@ -912,7 +912,7 @@ msgstr "Abrir Submenú"
 #: /1080i/SkinSettings.xml
 msgctxt "#31179"
 msgid "Press up from home menu"
-msgstr "Presionar arriba desde home"
+msgstr "Presionar arriba en el Home"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31180"
@@ -957,7 +957,7 @@ msgstr "Intervalo de tiempo para autodesplazamiento"
 #: /1080i/script-skinshortcuts.xml
 msgctxt "#31188"
 msgid "Limit"
-msgstr "Limite"
+msgstr "Límite"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31189"
@@ -987,7 +987,7 @@ msgstr ""
 #: /1080i/SkinSettings.xml
 msgctxt "#31194"
 msgid "Trailer button plays windowed"
-msgstr "Botón del tráiler reproduce en ventana"
+msgstr "Botón del tráiler lo reproduce en ventana"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31195"
@@ -1042,7 +1042,7 @@ msgstr "Vídeo de fondo"
 #: /1080i/SkinSettings.xml
 msgctxt "#31205"
 msgid "Press down from row view scrollbar opens"
-msgstr "Presionar abajo en barra de desplazamiento de vista de fila, abre"
+msgstr "Presionar abajo en la barra de desplazamiento de la vista de fila, abre:"
 
 #: /1080i/Items.xml
 msgctxt "#31206"
@@ -1052,12 +1052,12 @@ msgstr "Las valoraciones se muestran aun estando vacías o actualizando"
 #: /1080i/SkinSettings.xml
 msgctxt "#31207"
 msgid "Codec info with full expanded widgets"
-msgstr "Información de códec con widgets ampliados"
+msgstr "Información de códec en widgets ampliados"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31208"
 msgid "Expand plot on recommendations"
-msgstr "Ampliar argumento en recomendaciones"
+msgstr "Ampliar argumento en las recomendaciones"
 
 #: /1080i/Items.xml
 msgctxt "#31209"
@@ -1157,7 +1157,7 @@ msgstr "Personalizar colores"
 #: /1080i/SkinSettings.xml
 msgctxt "#31228"
 msgid "Customise background"
-msgstr "Personalizar fondo"
+msgstr "Personalizar el fondo"
 
 #: /1080i/script-skinshortcuts.xml
 msgctxt "#31229"
@@ -1272,7 +1272,7 @@ msgstr "Búsqueda en barra de menú de home"
 #: /1080i/SkinSettings.xml
 msgctxt "#31251"
 msgid "Codecs displayed with seekbar"
-msgstr "Códecs mostrados en barra de búsqueda"
+msgstr "Códecs mostrados con la barra de búsqueda"
 
 #: /1080i/Items.xml
 msgctxt "#31252"
@@ -1442,7 +1442,7 @@ msgstr "Widgets ampliados mueven el título hacia el encabezado para ganar una l
 #: /1080i/SkinSettings.xml
 msgctxt "#31285"
 msgid "Classification (MPAA)"
-msgstr "Clasificación (MPAA)""
+msgstr "Clasificación (MPAA)"
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31286"
@@ -1462,7 +1462,7 @@ msgstr "Utilice un tamaño de flixart más grande"
 #: /1080i/Includes_Items.xml
 msgctxt "#31289"
 msgid "Use local library info for recommendations"
-msgstr "Utilice la información de la biblioteca local para recomendaciones."
+msgstr "Utilice la información de la biblioteca local para recomendaciones"
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31290"
@@ -1792,7 +1792,7 @@ msgstr "Abrir selector de grupo"
 #: /1080i/SkinSettings.xml
 msgctxt "#31355"
 msgid "Press back from EPG"
-msgstr "Pulsa atrás en EPG"
+msgstr "Pulsar atrás en EPG"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31356"
@@ -1974,5 +1974,25 @@ msgstr "Utilizar iconos MPAA oficiales en lugar de obsoletos"
 msgctxt "#31504"
 msgid "Watch"
 msgstr "Ver"
+
+#: /1080i/Items.xml
+msgctxt "#31505"
+msgid "Old"
+msgstr "Antiguos"
+
+#: /1080i/Items.xml
+msgctxt "#31506"
+msgid "Official"
+msgstr "Oficiales"
+
+#: /1080i/Items.xml
+msgctxt "#31507"
+msgid "Modern"
+msgstr "Modernos"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31508"
+msgid "MPAA icon style"
+msgstr "Estilo de iconos MPAA"
 
 ### FIN Joseska Jon ###

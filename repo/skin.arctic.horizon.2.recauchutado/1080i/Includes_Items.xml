@@ -1170,6 +1170,7 @@
         </include>
     </include>
 
+
     <include name="Items_Settings_MPAACountries">
         <include content="Dialog_Settings_Button">
             <param name="id">8001</param>
@@ -1826,16 +1827,46 @@
             <selected>Skin.HasSetting(Infoline.InfoButton1)</selected>
             <label>$LOCALIZE[31502]</label>
         </include>
-        <!-- Jon - Opcion para iconos MPAA oficiales de España-->
-		<include content="Dialog_Settings_Button">
-            <param name="id" value="8004" />
-            <param name="control" value="radiobutton" />
-            <onclick>Skin.ToggleSetting(Furniture.MPAAOficialesButton1)</onclick>
-            <selected>Skin.HasSetting(Furniture.MPAAOficialesButton1)</selected>
-            <label>$LOCALIZE[31503]</label>
-        </include>
 	</include>
 	<!-- Fin Joseska -->
+ 
+	<!-- INI Jon - Items para el diálogo de menú del selector de estilo de iconos MPAA -->
+    <include name="Items_DialogPreset_MPAAIcons">
+        <include content="Dialog_Settings_Button" description="Modernos">
+            <param name="id" value="9001" />
+            <param name="control">radiobutton</param>
+            <label>$LOCALIZE[31507]</label>
+            <onclick>Skin.Reset(Furniture.MPAAOld)</onclick>
+            <onclick>Skin.Reset(Furniture.MPAAOfficial)</onclick>
+            <onclick>Close</onclick>
+            <!-- <onclick>ReloadSkin()</onclick> -->
+            <!-- <onclick>AlarmClock(refocus,SetFocus(1005),00:00,silent)</onclick> -->
+            <selected>!Skin.HasSetting(Furniture.MPAAOld) + !Skin.HasSetting(Furniture.MPAAOfficial)</selected>
+        </include>
+        <include content="Dialog_Settings_Button" description="Antiguos">
+            <param name="id" value="9002" />
+            <param name="control">radiobutton</param>
+            <label>$LOCALIZE[31505]</label>
+            <onclick>Skin.SetBool(Furniture.MPAAOld)</onclick>
+            <onclick>Skin.Reset(Furniture.MPAAOfficial)</onclick>
+            <onclick>Close</onclick>
+            <!-- <onclick>ReloadSkin()</onclick> -->
+            <!-- <onclick>AlarmClock(refocus,SetFocus(1005),00:00,silent)</onclick> -->
+            <selected>Skin.HasSetting(Furniture.MPAAOld) + !Skin.HasSetting(Furniture.MPAAOfficial)</selected>
+        </include>
+        <include content="Dialog_Settings_Button" description="Oficiales">
+            <param name="id" value="9003" />
+            <param name="control">radiobutton</param>
+            <label>$LOCALIZE[31506]</label>
+            <onclick>Skin.Reset(Furniture.MPAAOld)</onclick>
+            <onclick>Skin.SetBool(Furniture.MPAAOfficial)</onclick>
+            <onclick>Close</onclick>
+            <!-- <onclick>ReloadSkin()</onclick> -->
+            <!-- <onclick>AlarmClock(refocus,SetFocus(1005),00:00,silent)</onclick> -->
+            <selected>!Skin.HasSetting(Furniture.MPAAOld) + Skin.HasSetting(Furniture.MPAAOfficial)</selected>
+        </include>
+    </include>
+    <!-- FIN Jon-->
 	
 	
 

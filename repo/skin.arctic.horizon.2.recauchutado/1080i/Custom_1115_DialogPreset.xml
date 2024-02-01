@@ -25,6 +25,9 @@
                 <onright>Close</onright>
                 <include condition="String.IsEqual(Window(Home).Property(CustomDialogPresetItems),Items_DialogPreset_Colors)">Items_DialogPreset_Colors</include>
                 <include condition="String.IsEqual(Window(Home).Property(CustomDialogPresetItems),Items_DialogPreset_MenuStyles)">Items_DialogPreset_MenuStyles</include>
+                <!-- INI Jon - Include en el dialogo preset para abrir el diálogo con el selector de estilo de iconos de MPAA. -->
+                <include condition="String.IsEqual(Window(Home).Property(CustomDialogPresetItems),Items_DialogPreset_MPAAIcons)">Items_DialogPreset_MPAAIcons</include>
+                <!-- FIN Jon -->
                 <include content="Dialog_Settings_Button">
                     <param name="id" value="9099" />
                     <param name="control" value="button" />

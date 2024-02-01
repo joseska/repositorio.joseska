@@ -1973,4 +1973,24 @@ msgctxt "#31504"
 msgid "Watch"
 msgstr ""
 
+#: /1080i/Items.xml
+msgctxt "#31505"
+msgid "Old"
+msgstr ""
+
+#: /1080i/Items.xml
+msgctxt "#31506"
+msgid "Official"
+msgstr ""
+
+#: /1080i/Items.xml
+msgctxt "#31507"
+msgid "Modern"
+msgstr ""
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31508"
+msgid "MPAA icon style"
+msgstr ""
+
 ### FIN Joseska Jon ###
