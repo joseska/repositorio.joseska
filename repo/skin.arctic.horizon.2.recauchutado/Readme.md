@@ -1,13 +1,27 @@
+<h1 align="center"> Arctic Horizon 2 Recauchutado </h1>
+<h4 align="center">Versión del famoso skin Horizon 2 de JurialMunkey Adaptado para el addon Palantir</h4>
 
-# Arctic Horizon 2 [![License](https://img.shields.io/badge/License-GPLv3-blue)](https://github.com/jurialmunkey/skin.arctic.horizon.2/blob/master/LICENSE.txt) [![License](https://img.shields.io/badge/license-CC--NC--SA%204.0-green)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+![Arctic Horizon 2 Recauchutado de Joseska y Jon.](media/fanart2.jpg)
 
-This work is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
-or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
+### Actualización 0.2.4
+- [x] Nuevo pack de iconos "Modernos" (una nueva visión recauchutada).
+- [x] Icono por defecto si no se encuentra la clasificación por edad (fondo negro con dos guiones blancos). Independiente del estilo elegido.
+- [x] Nueva opción de menú en Decoraciones, en la sección Pie de página, llamada "Estilo de iconos MPAA" que permite seleccionar entre "Modernos" (por defecto), "Antiguos" (los típicos de años pasados en TV) o los "Oficiales" (aparentemente los iconos oficiales de MPAA en España, si alguien los ha visto por ahí debe ser el único 😅).
 
-Icon images from iconmonstr.com see website for license terms
+### Actualización 0.2.3
+- [x] Mostrar temporadas en footer.
+- [x] Mostrar episodios en footer.
+- [x] Mostrar iconos de estudio en footer (Decoraciones  - Iconos de estudio.)
+- [x] Mostrar proveedores de contenido (servicios de streaming) en footer (Decoraciones  - Iconos de proveedores de medios)
+- [x] Mostrar iconos de clasificación por edades en footer. (decoraciones - Clasificación (MPAA) - España)
+- [x] Nueva entrada de menú en Extras para activar los iconos MPAA oficiales en lugar de los obsoletos (obsoletos por defecto).
+- [x] 2 nuevos iconos oficiales MPAA España (los de las "i").
+- [x] 7 nuevos iconos obsoletos MPAA (más vistosos, aunque menos oficiales).
+- [x] 1 nuevo icono, del pack destinado a widgets, de Movistar+.
+- [x] Llevar textos de entradas del menú Extras a ficheros de localización.
+- [x] Llevar texto de botón "Ver" a ficheros de localización.
 
-Classification icons sourced from wyrm65's classification icon pack
-https://github.com/wyrm65/resource.images.classificationicons.colour
-
-Language flags sourced from im85288's language flag icon pack
-https://github.com/im85288/resource.images.languageflags.colour
+### Actualización 0.2.2
+- [x] Añadido script.wikipedia como addon requerido al skin.
+- [x] Cambios en el botón WIKI de la pantalla de Información. Que no estaba funcionando.
+- [x] Cambios miniatura Episodios. Ahora se muestra correctamente la miniatura de los episodios.

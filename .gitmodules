@@ -40,3 +40,6 @@
 [submodule "repo/repository.marcelveldt"]
 	path = repo/repository.marcelveldt
 	url = https://github.com/kodi-community-addons/repository.marcelveldt
+[submodule "repo/skin.arctic.horizon.2.recauchutado"]
+	path = repo/skin.arctic.horizon.2.recauchutado
+	url = https://github.com/joseska/Arctic-Horizon-2-Recauchutado

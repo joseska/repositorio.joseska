@@ -12,4 +12,5 @@ git submodule add https://github.com/jurialmunkey/script.module.infotagger repo/
 git submodule add https://github.com/jurialmunkey/repository.jurialmunkey repo/repository.jurialmunkey
 git submodule add https://github.com/rmrector/repository.rector.stuff repo/repository.rector.stuff
 git submodule add https://github.com/kodi-community-addons/repository.marcelveldt repo/repository.marcelveldt
+git submodule add https://github.com/joseska/Arctic-Horizon-2-Recauchutado repo/skin.arctic.horizon.2.recauchutado
 

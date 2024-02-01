@@ -1380,6 +1380,7 @@
         <param name="haslabel" default="true" />
         <param name="visible" default="true" />
         <definition>
+            <!-- Recuadro Azul Menu Superior cuando está seleccionado???  -->
             <include content="Object_Control">
                 <param name="control" value="group" />
                 <visible>$PARAM[visible]</visible>
@@ -1392,6 +1393,7 @@
                     <texture border="80" colordiffuse="$PARAM[color_bg]">$PARAM[nf_texture]</texture>
                 </control>
             </include>
+            <!-- Icono + texto Menu Superior cuando esta seleccionado???? -->
             <include content="Object_Control" condition="$PARAM[haslabel]">
                 <param name="control" value="group" />
                 <visible>$PARAM[visible]</visible>
@@ -1462,6 +1464,7 @@
         </definition>
     </include>
 
+
     <include name="Object_MenuBar_List">
         <param name="control" default="list" />
         <param name="focus_w" default="360" />
@@ -1480,6 +1483,7 @@
                 <height>160</height>
                 <orientation>horizontal</orientation>
                 <scrolltime tween="quadratic">400</scrolltime>
+                <!-- Joseska - Parece ser el itemlayout de Clásico -->
                 <itemlayout height="160" width="100">
                     <control type="group">
                         <left>40</left>
@@ -1494,6 +1498,8 @@
                         </control>
                     </control>
                 </itemlayout>
+                
+                <!-- Joseska - Parece ser el itemlayout de Iconos -->
                 <focusedlayout height="160" width="100" condition="$PARAM[iconic]">
                     <control type="group">
                         <left>40</left>
