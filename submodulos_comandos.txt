@@ -15,9 +15,19 @@ git submodule add https://github.com/kodi-community-addons/repository.marcelveld
 git submodule add https://github.com/joseska/Arctic-Horizon-2-Recauchutado repo/skin.arctic.horizon.2.recauchutado
 
 
-Quitar un submodulo
+#Quitar un submodulo
 git submodule deinit -f repo/skin.arctic.horizon.2.recauchutado
 rm -rf .git/modules/repo/skin.arctic.horizon.2.recauchutado
 git rm -f repo/skin.arctic.horizon.2.recauchutado
+
+
+#Actualizaciones
+# Quitar algunos posibles errores primero
+git submodule foreach git stash
+# Actualizar los submodulos
+git submodule foreach git pull
+# Actualizar el repositorio como tal
+python _repo_generator.py
+
 
 
