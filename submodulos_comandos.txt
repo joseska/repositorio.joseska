@@ -14,3 +14,10 @@ git submodule add https://github.com/rmrector/repository.rector.stuff repo/repos
 git submodule add https://github.com/kodi-community-addons/repository.marcelveldt repo/repository.marcelveldt
 git submodule add https://github.com/joseska/Arctic-Horizon-2-Recauchutado repo/skin.arctic.horizon.2.recauchutado
 
+
+Quitar un submodulo
+git submodule deinit -f repo/skin.arctic.horizon.2.recauchutado
+rm -rf .git/modules/repo/skin.arctic.horizon.2.recauchutado
+git rm -f repo/skin.arctic.horizon.2.recauchutado
+
+
