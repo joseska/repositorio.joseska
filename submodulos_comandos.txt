@@ -38,6 +38,7 @@ git submodule add -b omega https://github.com/joseska/Arctic-Horizon-2-Recauchut
 
 
 
+
 #Quitar un submodulo
 git submodule deinit -f repo/skin.arctic.horizon.2.recauchutado
 rm -rf .git/modules/repo/skin.arctic.horizon.2.recauchutado
@@ -47,6 +48,7 @@ git rm -f repo/skin.arctic.horizon.2.recauchutado
 git submodule deinit -f omega/skin.arctic.horizon.2.recauchutado
 rm -rf .git/modules/omega/skin.arctic.horizon.2.recauchutado
 git rm -f omega/skin.arctic.horizon.2.recauchutado
+
 
 
 #Actualizaciones
