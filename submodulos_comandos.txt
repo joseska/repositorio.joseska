@@ -1,3 +1,5 @@
+todos los anteriores menos omega
+-------------------------------------------------------------------------------------------------------------------------
 git submodule add https://github.com/jurialmunkey/plugin.video.themoviedb.helper repo/plugin.video.themoviedb.helper
 git submodule add https://github.com/jurialmunkey/script.skinvariables repo/script.skinvariables
 git submodule add https://github.com/drinfernoo/resource.images.arctic.waves repo/resource.images.arctic.waves
@@ -13,6 +15,26 @@ git submodule add https://github.com/jurialmunkey/repository.jurialmunkey repo/r
 git submodule add https://github.com/rmrector/repository.rector.stuff repo/repository.rector.stuff
 git submodule add https://github.com/kodi-community-addons/repository.marcelveldt repo/repository.marcelveldt
 git submodule add https://github.com/joseska/Arctic-Horizon-2-Recauchutado repo/skin.arctic.horizon.2.recauchutado
+-------------------------------------------------------------------------------------------------------------------------
+
+omega
+-------------------------------------------------------------------------------------------------------------------------
+git submodule add https://github.com/jurialmunkey/plugin.video.themoviedb.helper omega/plugin.video.themoviedb.helper
+git submodule add https://github.com/jurialmunkey/script.skinvariables omega/script.skinvariables
+git submodule add https://github.com/drinfernoo/resource.images.arctic.waves omega/resource.images.arctic.waves
+git submodule add https://github.com/jurialmunkey/context.themoviedb.helper omega/context.themoviedb.helper
+git submodule add https://github.com/drinfernoo/screensaver.arctic.mirage omega/screensaver.arctic.mirage
+git submodule add https://github.com/Swageroni/resource.images.moviegenreicons.horizon omega/moviegenreicons.horizon
+git submodule add https://github.com/jurialmunkey/script.texturemaker omega/script.texturemaker 
+git submodule add https://github.com/jurialmunkey/resource.font.robotocjksc omega/font.robotocjksc
+git submodule add https://github.com/jurialmunkey/script.module.jurialmunkey omega/script.module.jurialmunkey 
+git submodule add https://github.com/jurialmunkey/script.wikipedia.git omega/script.wikipedia
+git submodule add https://github.com/jurialmunkey/script.module.infotagger omega/script.module.infotagger
+git submodule add https://github.com/jurialmunkey/repository.jurialmunkey omega/repository.jurialmunkey
+git submodule add https://github.com/rmrector/repository.rector.stuff omega/repository.rector.stuff
+git submodule add https://github.com/kodi-community-addons/repository.marcelveldt omega/repository.marcelveldt
+git submodule add https://github.com/joseska/Arctic-Horizon-2-Recauchutado omega/skin.arctic.horizon.2.recauchutado
+-------------------------------------------------------------------------------------------------------------------------
 
 
 #Quitar un submodulo
