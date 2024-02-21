@@ -50,7 +50,7 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="plugin.video.themoviedb.helper" version="5.2.16~nexus" name="TheMovieDb Helper" provider-name="jurialmunkey">
+</addon><addon id="plugin.video.themoviedb.helper" version="5.2.17~nexus" name="TheMovieDb Helper" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.1" />
   <import addon="script.module.requests" version="2.9.1" />
@@ -81,7 +81,7 @@
     <screenshot>resources/screenshot-02.jpg</screenshot>
   </assets>
 </extension>
-</addon><addon id="repositorio.joseska" name="repositorio.joseska" version="0.1.6" provider-name="joseska">
+</addon><addon id="repositorio.joseska" name="repositorio.joseska" version="0.1.8" provider-name="joseska">
     <extension point="xbmc.addon.repository" name="joseska Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/joseska/repositorio.joseska/master/repo/zips/addons.xml</info>
@@ -311,7 +311,7 @@
       <icon>icon.png</icon>
     </assets>
   </extension>
-</addon><addon id="script.skinvariables" version="2.1.2" name="Skin Variables" provider-name="jurialmunkey">
+</addon><addon id="script.skinvariables" version="2.1.4" name="Skin Variables" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.0" />
   <import addon="script.module.jurialmunkey" version="0.1.17" />

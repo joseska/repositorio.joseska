@@ -33,14 +33,20 @@ git submodule add https://github.com/jurialmunkey/script.module.infotagger omega
 git submodule add https://github.com/jurialmunkey/repository.jurialmunkey omega/repository.jurialmunkey
 git submodule add https://github.com/rmrector/repository.rector.stuff omega/repository.rector.stuff
 git submodule add https://github.com/kodi-community-addons/repository.marcelveldt omega/repository.marcelveldt
-git submodule add https://github.com/joseska/Arctic-Horizon-2-Recauchutado omega/skin.arctic.horizon.2.recauchutado
+git submodule add -b omega https://github.com/joseska/Arctic-Horizon-2-Recauchutado omega/skin.arctic.horizon.2.recauchutado
 -------------------------------------------------------------------------------------------------------------------------
+
 
 
 #Quitar un submodulo
 git submodule deinit -f repo/skin.arctic.horizon.2.recauchutado
 rm -rf .git/modules/repo/skin.arctic.horizon.2.recauchutado
 git rm -f repo/skin.arctic.horizon.2.recauchutado
+
+#Quitar un submodulo omega 
+git submodule deinit -f omega/skin.arctic.horizon.2.recauchutado
+rm -rf .git/modules/omega/skin.arctic.horizon.2.recauchutado
+git rm -f omega/skin.arctic.horizon.2.recauchutado
 
 
 #Actualizaciones
