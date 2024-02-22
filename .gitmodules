@@ -31,15 +31,6 @@
 [submodule "repo/script.module.infotagger"]
 	path = repo/script.module.infotagger
 	url = https://github.com/jurialmunkey/script.module.infotagger
-[submodule "repo/repository.jurialmunkey"]
-	path = repo/repository.jurialmunkey
-	url = https://github.com/jurialmunkey/repository.jurialmunkey
-[submodule "repo/repository.rector.stuff"]
-	path = repo/repository.rector.stuff
-	url = https://github.com/rmrector/repository.rector.stuff
-[submodule "repo/repository.marcelveldt"]
-	path = repo/repository.marcelveldt
-	url = https://github.com/kodi-community-addons/repository.marcelveldt
 [submodule "repo/skin.arctic.horizon.2.recauchutado"]
 	path = repo/skin.arctic.horizon.2.recauchutado
 	url = https://github.com/joseska/Arctic-Horizon-2-Recauchutado
@@ -76,15 +67,6 @@
 [submodule "omega/script.module.infotagger"]
 	path = omega/script.module.infotagger
 	url = https://github.com/jurialmunkey/script.module.infotagger
-[submodule "omega/repository.jurialmunkey"]
-	path = omega/repository.jurialmunkey
-	url = https://github.com/jurialmunkey/repository.jurialmunkey
-[submodule "omega/repository.rector.stuff"]
-	path = omega/repository.rector.stuff
-	url = https://github.com/rmrector/repository.rector.stuff
-[submodule "omega/repository.marcelveldt"]
-	path = omega/repository.marcelveldt
-	url = https://github.com/kodi-community-addons/repository.marcelveldt
 [submodule "omega/skin.arctic.horizon.2.recauchutado"]
 	path = omega/skin.arctic.horizon.2.recauchutado
 	url = https://github.com/joseska/Arctic-Horizon-2-Recauchutado
