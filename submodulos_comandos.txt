@@ -11,9 +11,6 @@ git submodule add https://github.com/jurialmunkey/resource.font.robotocjksc repo
 git submodule add https://github.com/jurialmunkey/script.module.jurialmunkey repo/script.module.jurialmunkey 
 git submodule add https://github.com/jurialmunkey/script.wikipedia.git repo/script.wikipedia
 git submodule add https://github.com/jurialmunkey/script.module.infotagger repo/script.module.infotagger
-git submodule add https://github.com/jurialmunkey/repository.jurialmunkey repo/repository.jurialmunkey
-git submodule add https://github.com/rmrector/repository.rector.stuff repo/repository.rector.stuff
-git submodule add https://github.com/kodi-community-addons/repository.marcelveldt repo/repository.marcelveldt
 git submodule add https://github.com/joseska/Arctic-Horizon-2-Recauchutado repo/skin.arctic.horizon.2.recauchutado
 -------------------------------------------------------------------------------------------------------------------------
 
@@ -30,9 +27,6 @@ git submodule add https://github.com/jurialmunkey/resource.font.robotocjksc omeg
 git submodule add https://github.com/jurialmunkey/script.module.jurialmunkey omega/script.module.jurialmunkey 
 git submodule add https://github.com/jurialmunkey/script.wikipedia.git omega/script.wikipedia
 git submodule add https://github.com/jurialmunkey/script.module.infotagger omega/script.module.infotagger
-git submodule add https://github.com/jurialmunkey/repository.jurialmunkey omega/repository.jurialmunkey
-git submodule add https://github.com/rmrector/repository.rector.stuff omega/repository.rector.stuff
-git submodule add https://github.com/kodi-community-addons/repository.marcelveldt omega/repository.marcelveldt
 git submodule add -b omega https://github.com/joseska/Arctic-Horizon-2-Recauchutado omega/skin.arctic.horizon.2.recauchutado
 -------------------------------------------------------------------------------------------------------------------------
 
@@ -61,3 +55,25 @@ python _repo_generator.py
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Borrado por ahora
+----------------------------------------------------
+git submodule add https://github.com/jurialmunkey/repository.jurialmunkey repo/repository.jurialmunkey
+git submodule add https://github.com/rmrector/repository.rector.stuff repo/repository.rector.stuff
+git submodule add https://github.com/kodi-community-addons/repository.marcelveldt repo/repository.marcelveldt
+
+git submodule add https://github.com/jurialmunkey/repository.jurialmunkey omega/repository.jurialmunkey
+git submodule add https://github.com/rmrector/repository.rector.stuff omega/repository.rector.stuff
+git submodule add https://github.com/kodi-community-addons/repository.marcelveldt omega/repository.marcelveldt
