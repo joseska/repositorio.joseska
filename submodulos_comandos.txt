@@ -1,6 +1,6 @@
 todos los anteriores menos omega
 -------------------------------------------------------------------------------------------------------------------------
-git submodule add https://github.com/jurialmunkey/plugin.video.themoviedb.helper repo/plugin.video.themoviedb.helper
+git submodule add https://github.com/joseska/plugin.video.themoviedb.helper.recauchutado repo/plugin.video.themoviedb.helper
 git submodule add https://github.com/jurialmunkey/script.skinvariables repo/script.skinvariables
 git submodule add https://github.com/drinfernoo/resource.images.arctic.waves repo/resource.images.arctic.waves
 git submodule add https://github.com/jurialmunkey/context.themoviedb.helper repo/context.themoviedb.helper
@@ -16,7 +16,7 @@ git submodule add https://github.com/joseska/Arctic-Horizon-2-Recauchutado repo/
 
 omega
 -------------------------------------------------------------------------------------------------------------------------
-git submodule add https://github.com/jurialmunkey/plugin.video.themoviedb.helper omega/plugin.video.themoviedb.helper
+git submodule add https://github.com/joseska/plugin.video.themoviedb.helper.recauchutado omega/plugin.video.themoviedb.helper
 git submodule add https://github.com/jurialmunkey/script.skinvariables omega/script.skinvariables
 git submodule add https://github.com/drinfernoo/resource.images.arctic.waves omega/resource.images.arctic.waves
 git submodule add https://github.com/jurialmunkey/context.themoviedb.helper omega/context.themoviedb.helper
