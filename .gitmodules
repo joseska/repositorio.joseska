@@ -65,9 +65,3 @@
 	path = omega/skin.arctic.horizon.2.recauchutado
 	url = https://github.com/joseska/Arctic-Horizon-2-Recauchutado
 	branch = omega
-[submodule "repo/plugin.video.themoviedb.helper"]
-	path = repo/plugin.video.themoviedb.helper
-	url = https://github.com/joseska/plugin.video.themoviedb.helper.recauchutado
-[submodule "omega/plugin.video.themoviedb.helper"]
-	path = omega/plugin.video.themoviedb.helper
-	url = https://github.com/joseska/plugin.video.themoviedb.helper.recauchutado
